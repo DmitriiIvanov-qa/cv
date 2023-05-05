@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url('path/to/favme32.ico') no-repeat;
+}
+
+header {
+  background-color: #2c3742;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+header img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.photo {
+  border-radius: 150px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+  .photo:hover {
+    border: 3px solid #ff0000;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:darkred;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.links {
+  width: 320px;
+  margin-bottom: 40px;
+}
+
+.links__header {
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+}
+
+.links__container {
+  background-color: #fff;
+  list-style-type: none;
+  border: 1px solid rgb(167, 168, 168);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 0px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: content-box;
+  margin: 0;
+  }
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+  color: #57606a;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid rgb(133, 134, 136);
+  width: 100%;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #57606a;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+footer {
+  margin: 0 0 40px 0;
+}
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  background: #2c3e50;
+  border-radius: 20px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #ffffff;
+  text-decoration: none;
+}
